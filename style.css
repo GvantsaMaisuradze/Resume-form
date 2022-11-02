@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(18, 50, 76);
+}
+.card {
+    margin: 20px;
+}
+
+article {
+    margin-top: 50px!important;
+}
+.registration {
+    background-color: rgb(37, 70, 97);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px!important;
+}
+.registration * {
+    color: white;
+}
+.registration input {
+    color: black;
+}
+.registration .form-group {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:500px){
+    .registration{
+        width: 95%!important;
+    }
+    #humanArea {
+        width: 100%!important;
+        justify-content: space-between;
+    }
+}
